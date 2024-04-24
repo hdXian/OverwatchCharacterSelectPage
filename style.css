@@ -73,7 +73,7 @@ body {
 .logo {
   max-width: 300px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 40px 20px;
 }
 
 .logo img {
@@ -81,31 +81,31 @@ body {
 }
 
 #hero1 {
-  background-image: url(./resources/hero_images/hero1.png);
+  background-image: url(./resources/hero_images/hero01.png);
 }
 #hero2 {
-  background-image: url(./resources/hero_images/hero2.png);
+  background-image: url(./resources/hero_images/hero02.png);
 }
 #hero3 {
-  background-image: url(./resources/hero_images/hero3.png);
+  background-image: url(./resources/hero_images/hero03.png);
 }
 #hero4 {
-  background-image: url(./resources/hero_images/hero4.png);
+  background-image: url(./resources/hero_images/hero04.png);
 }
 #hero5 {
-  background-image: url(./resources/hero_images/hero5.png);
+  background-image: url(./resources/hero_images/hero05.png);
 }
 #hero6 {
-  background-image: url(./resources/hero_images/hero6.png);
+  background-image: url(./resources/hero_images/hero06.png);
 }
 #hero7 {
-  background-image: url(./resources/hero_images/hero7.png);
+  background-image: url(./resources/hero_images/hero07.png);
 }
 #hero8 {
-  background-image: url(./resources/hero_images/hero8.png);
+  background-image: url(./resources/hero_images/hero08.png);
 }
 #hero9 {
-  background-image: url(./resources/hero_images/hero9.png);
+  background-image: url(./resources/hero_images/hero09.png);
 }
 #hero10 {
   background-image: url(./resources/hero_images/hero10.png);
