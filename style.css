@@ -1,0 +1,178 @@
+body {
+  background-image: url(./resources/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page {
+  padding: 100px 0;
+}
+
+.heros {
+  width: auto;
+  height: auto;
+
+  /* 너비 100px + margin 10px 사진 한 줄에 7개 -> 120*7 = 840px */
+  max-width: 750px;
+
+  /* 양쪽 margin을 auto로 돌려서 같게 만듦. page 요소 안에서 가운데 정렬 효과. */
+  margin: 0 auto;
+
+  /* item 수평 정렬 */
+  display: flex;
+
+  /* item들이 너무 많으면 줄바꿈 */
+  flex-wrap: wrap;
+
+  /* item 가운데 정렬 */
+  justify-content: center;
+
+  /* background-color: yellowgreen; */
+}
+
+.hero {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+
+  border: 3px solid white;
+  background-color: #555;
+
+  border-radius: 10px;
+
+  /* 창 15도 비틀기 */
+  transform: skewX(-15deg);
+
+  /* 내부 요소가 벗어나지 않도록 처리 */
+  overflow: hidden;
+
+  transition: transform 0.1s, background-color 0.5s;
+}
+
+.hero:hover {
+  background-color: orange;
+  transform: scale(1.2) skewX(-15deg);
+}
+
+.heroimage {
+  width: 100%;
+  height: 100%;
+
+  /* 배경 이미지를 요소 크기에 맞게 조정 */
+  background-size: cover;
+
+  /* 배경사진 요소 내 가운데 정렬 */
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  /* 사진만 반대쪽으로 다시 15도 비틀기 */
+  transform: skewX(15deg);
+}
+
+.logo {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+#hero1 {
+  background-image: url(./resources/hero_images/hero1.png);
+}
+#hero2 {
+  background-image: url(./resources/hero_images/hero2.png);
+}
+#hero3 {
+  background-image: url(./resources/hero_images/hero3.png);
+}
+#hero4 {
+  background-image: url(./resources/hero_images/hero4.png);
+}
+#hero5 {
+  background-image: url(./resources/hero_images/hero5.png);
+}
+#hero6 {
+  background-image: url(./resources/hero_images/hero6.png);
+}
+#hero7 {
+  background-image: url(./resources/hero_images/hero7.png);
+}
+#hero8 {
+  background-image: url(./resources/hero_images/hero8.png);
+}
+#hero9 {
+  background-image: url(./resources/hero_images/hero9.png);
+}
+#hero10 {
+  background-image: url(./resources/hero_images/hero10.png);
+}
+#hero11 {
+  background-image: url(./resources/hero_images/hero11.png);
+}
+#hero12 {
+  background-image: url(./resources/hero_images/hero12.png);
+}
+#hero13 {
+  background-image: url(./resources/hero_images/hero13.png);
+}
+#hero14 {
+  background-image: url(./resources/hero_images/hero14.png);
+}
+#hero15 {
+  background-image: url(./resources/hero_images/hero15.png);
+}
+#hero16 {
+  background-image: url(./resources/hero_images/hero16.png);
+}
+#hero17 {
+  background-image: url(./resources/hero_images/hero17.png);
+}
+#hero18 {
+  background-image: url(./resources/hero_images/hero18.png);
+}
+#hero19 {
+  background-image: url(./resources/hero_images/hero19.png);
+}
+#hero20 {
+  background-image: url(./resources/hero_images/hero20.png);
+}
+#hero21 {
+  background-image: url(./resources/hero_images/hero21.png);
+}
+#hero22 {
+  background-image: url(./resources/hero_images/hero22.png);
+}
+#hero23 {
+  background-image: url(./resources/hero_images/hero23.png);
+}
+#hero24 {
+  background-image: url(./resources/hero_images/hero24.png);
+}
+#hero25 {
+  background-image: url(./resources/hero_images/hero25.png);
+}
+#hero26 {
+  background-image: url(./resources/hero_images/hero26.png);
+}
+#hero27 {
+  background-image: url(./resources/hero_images/hero27.png);
+}
+#hero28 {
+  background-image: url(./resources/hero_images/hero28.png);
+}
+#hero29 {
+  background-image: url(./resources/hero_images/hero29.png);
+}
+#hero30 {
+  background-image: url(./resources/hero_images/hero30.png);
+}
+#hero31 {
+  background-image: url(./resources/hero_images/hero31.png);
+}
+#hero32 {
+  background-image: url(./resources/hero_images/hero32.png);
+}
